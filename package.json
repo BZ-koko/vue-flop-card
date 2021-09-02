@@ -14,13 +14,13 @@
   "module": "dist/vue-flop-card.esm.js",
   "unpkg": "dist/vue-flop-card.min.js",
   "browser": {
-    "./sfc": "src/vue-flop.vue"
+    "./sfc": "src/vue-flop-card.vue"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BZ-koko/vue-flop-card.git"
   },
-  "author": "Joakim Vrangum",
+  "author": "BZ-koko",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BZ-koko/vue-flop-card/issues"
