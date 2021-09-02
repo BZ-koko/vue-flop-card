@@ -106,7 +106,7 @@ if (!argv.format || argv.format === 'cjs') {
       compact: true,
       file: 'dist/vue-flop-card.ssr.js',
       format: 'cjs',
-      name: 'VueFlipFlopCard',
+      name: 'VueFlopCard',
       exports: 'named',
       globals,
     },
