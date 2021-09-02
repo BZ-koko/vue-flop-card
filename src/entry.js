@@ -2,7 +2,7 @@
 import component from '@/vue-flop-card.vue';
 
 // install function executed by Vue.use()
-const install = function installVueFlipFlopCard(Vue) {
+const install = function installVueFlopCard(Vue) {
   if (install.installed) return;
   install.installed = true;
   Vue.component('VueFlopCard', component);
