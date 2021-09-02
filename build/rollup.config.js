@@ -135,7 +135,7 @@ if (!argv.format || argv.format === 'iife') {
       compact: true,
       file: 'dist/vue-flop-card.min.js',
       format: 'iife',
-      name: 'VueFlipFlopCard',
+      name: 'VueFlopCard',
       exports: 'named',
       globals,
     },
