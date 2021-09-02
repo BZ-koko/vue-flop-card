@@ -1,0 +1,66 @@
+{
+  "name": "vue-flop-card",
+  "description": "The is a flop card.. for VueJS!",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "component",
+    "javascript",
+    "card",
+    "flop card"
+  ],
+  "version": "0.2.2",
+  "main": "dist/vue-flop-card.ssr.js",
+  "module": "dist/vue-flop-card.esm.js",
+  "unpkg": "dist/vue-flop-card.min.js",
+  "browser": {
+    "./sfc": "src/vue-flop.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BZ-koko/vue-flop-card.git"
+  },
+  "author": "Joakim Vrangum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BZ-koko/vue-flop-card/issues"
+  },
+  "homepage": "https://github.com/BZ-koko/vue-flop-card#readme",
+  "scripts": {
+    "serve": "vue-cli-service serve ./dev/serve.js",
+    "build": "cross-env NODE_ENV=production rollup --config ./build/rollup.config.js",
+    "build:ssr": "cross-env NODE_ENV=production rollup --config ./build/rollup.config.js --format cjs",
+    "build:es": "cross-env NODE_ENV=production rollup --config ./build/rollup.config.js --format es",
+    "build:unpkg": "cross-env NODE_ENV=production rollup --config ./build/rollup.config.js --format iife"
+  },
+  "files": [
+    "dist/*",
+    "src/**/*.vue"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@rollup/plugin-alias": "^2.2.0",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-replace": "^2.3.2",
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
+    "cross-env": "^7.0.2",
+    "minimist": "^1.2.5",
+    "rollup": "^2.7.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
