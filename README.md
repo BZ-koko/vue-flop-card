@@ -44,7 +44,7 @@ export default {
 
 ## Example usage
 
-Component usage with just bare <u>**slots**</u> for custom content:
+Component usage content:
 
 ```vue
 data(){
