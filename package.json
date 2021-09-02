@@ -9,7 +9,7 @@
     "card",
     "flop card"
   ],
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "dist/vue-flop-card.ssr.js",
   "module": "dist/vue-flop-card.esm.js",
   "unpkg": "dist/vue-flop-card.min.js",
