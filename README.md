@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/npm/l/vue-flop-card.svg)](https://www.npmjs.com/package/vue-flop-card)
 [![downloads](https://img.shields.io/npm/dt/vue-flop-card.svg)](https://www.npmjs.com/package/vue-flop-card)
 
-This is a flop card for vuejs!
+This is a flop card for vuejs,
 A digital card flop, usually used in data analysis and large-screen projects
 
 Feel free to report issues, fork, send feature/pull-requests, or reuse for whatever purpose you see fit.
